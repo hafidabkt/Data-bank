@@ -1,0 +1,67 @@
+
+
+const users = [
+  {
+    id: 1,
+    fullName: "Amine Bensalem",
+    username: "amine_ben",
+    email: "amine.ben@example.com",
+    phone: "+213 555 123 456",
+    role: "Admin",
+    department: "IT",
+    position: "System Administrator",
+    status: "Active",
+    createdAt: "2024-02-15",
+  },
+  {
+    id: 2,
+    fullName: "Sofia Meriem",
+    username: "sofia_mer",
+    email: "sofia.meriem@example.com",
+    phone: "+213 666 987 654",
+    role: "User",
+    department: "HR",
+    position: "HR Specialist",
+    status: "Inactive",
+    createdAt: "2024-01-10",
+  },
+  {
+    id: 3,
+    fullName: "Omar Khelifa",
+    username: "omar_kh",
+    email: "omar.khelifa@example.com",
+    phone: "+213 777 456 321",
+    role: "Moderator",
+    department: "Support",
+    position: "Customer Support Lead",
+    status: "Active",
+    createdAt: "2023-12-05",
+  },
+  {
+    id: 4,
+    fullName: "Nour Hadj",
+    username: "nour_hj",
+    email: "nour.hadj@example.com",
+    phone: "+213 554 321 789",
+    role: "User",
+    department: "Marketing",
+    position: "Content Creator",
+    status: "Pending",
+    createdAt: "2024-03-01",
+  },
+  {
+    id: 5,
+    fullName: "Yassine Belkacem",
+    username: "yassine_bk",
+    email: "yassine.bk@example.com",
+    phone: "+213 668 852 963",
+    role: "Admin",
+    department: "Finance",
+    position: "Financial Analyst",
+    status: "Banned",
+    createdAt: "2022-11-20",
+  },
+];
+
+
+export { users };
